@@ -1,0 +1,12 @@
+.blog_card {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.blog_card:hover {
+    background-color: white;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}

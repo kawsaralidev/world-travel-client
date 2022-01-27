@@ -1,0 +1,57 @@
+.recent_box {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.blog-image {
+    height: 240px;
+    width: 320px;
+    padding: 20px 0px 20px 0px;
+}
+.blog-container {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog-container:hover {
+    background-color: white;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.btn_details {
+    background-color: white;
+    color: tomato;
+    border-radius: 3px;
+    border: 1px solid tomato;
+    padding: 5px 12px 5px 12px;
+    margin-bottom: 7px;
+}
+.btn_details:hover {
+    background-color: tomato;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid tomato;
+    padding: 5px 12px 5px 12px;
+    margin-bottom: 7px;
+}
+.icon-star {
+    color: gold;
+}
+.pagination {
+    margin: 30px;
+}
+.pagination Button {
+    background-color: tomato;
+    padding: 2px 10px;
+    margin-right: 20px;
+    border: tomato;
+    color: white;
+}
+.pagination .selected {
+    background-color: rgb(46, 46, 223);
+    color: white;
+}

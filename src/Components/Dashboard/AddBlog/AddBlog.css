@@ -1,0 +1,17 @@
+.login_form {
+    width: 100%;
+    border: 1px solid tomato;
+    border-radius: 3px;
+    padding: 40px;
+    box-shadow: 10px 10px 30px 0px rgb(0 0 0 / 0%);
+    transition: all 0.3s ease-in-out;
+}
+.login_form input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid tomato;
+    padding: 12px 0 12px 12px;
+}
+.login_title {
+    color: tomato;
+}

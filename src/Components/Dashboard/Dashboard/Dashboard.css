@@ -1,0 +1,51 @@
+.dashboard_left_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dashboard_left_box a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.dash_icon {
+    margin-right: 7px;
+}
+
+.dashboard_items {
+    margin-bottom: 13px;
+}
+
+.user_info {
+    border: 1px solid var(--orange);
+    background: transparent;
+    padding: 20px 0;
+    color: var(--orange);
+}
+.a {
+    color: green !important;
+}
+.user_name span {
+    font-size: 18px;
+}
+
+.user_logout .logout_btn {
+    color: red;
+}
+
+.logout_btn {
+    font-weight: bold;
+}
+.btn_dashboard {
+    background-color: white;
+    border: 1px solid tomato;
+    color: tomato;
+}
+.btn_dashboard:hover {
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: white;
+}

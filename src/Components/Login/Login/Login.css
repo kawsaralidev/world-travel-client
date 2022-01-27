@@ -1,0 +1,63 @@
+.login_form {
+    width: 100%;
+    border: 1px solid green;
+    border-radius: 3px;
+    padding: 40px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.login_form:hover {
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.login_title {
+    color: green;
+    text-transform: uppercase;
+}
+
+.login_form input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    padding: 12px 0 12px 12px;
+}
+
+.login_form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.login_form label span {
+    color: var(--red);
+}
+
+.btn_login {
+    background-color: white;
+    color: green;
+    padding: 10px 5px;
+    width: 25%;
+    border: 1px solid green;
+}
+.btn_login:hover {
+    background-color: green;
+    color: white;
+    padding: 10px 5px;
+    width: 25%;
+    border: 1px solid green;
+}
+.btn_register {
+    background-color: white;
+    color: green !important;
+    padding: 3px 0px;
+    width: 25%;
+    border: 1px solid green;
+}
+.btn_register:hover {
+    background-color: green !important;
+    color: white !important;
+    padding: 3px 0px !important;
+    width: 25%;
+    border: 1px solid green !important;
+}

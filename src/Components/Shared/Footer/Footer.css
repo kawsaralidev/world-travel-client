@@ -1,0 +1,18 @@
+.footer-container {
+    /* background-image: linear-gradient(to right, rgb(255, 212, 194), rgb(72, 247, 148)); */
+    background-color: rgb(215, 255, 240);
+}
+.footer-container {
+    box-shadow: rgb(134, 134, 134) 13px 0px 40px 0px;
+}
+.footer-bottom {
+    background-color: white;
+    box-shadow: rgba(138, 135, 135, 0.93) 13px 0px 40px 0px;
+}
+.footer-icon i {
+    background: transparent;
+
+    margin-right: 20px;
+    border: 1px solid var(--red);
+    color: #000;
+}

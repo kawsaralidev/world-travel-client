@@ -1,0 +1,16 @@
+.nav-container {
+    background-color: rgb(156, 237, 240);
+}
+
+.main_nav-style {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(60, 60, 61) !important;
+    margin-right: 25px;
+}
+.main_nav-style:hover {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+    color: tomato !important;
+}
