@@ -9,7 +9,7 @@ const AddBlog = () => {
 
     // handle submit
     const onSubmit = (data) => {
-        axios.post("http://localhost:5000/addBlog", data).then((res) => {
+        axios.post("https://damp-wildwood-60851.herokuapp.com/addBlog", data).then((res) => {
             if (res.data.insertedId) {
                 alert("Blog Added Successful!!");
                 reset();

@@ -10,7 +10,7 @@ const BlogDetails = () => {
     console.log(detail);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/addBlog/${Id}`)
+        fetch(`https://damp-wildwood-60851.herokuapp.com/addBlog/${Id}`)
             .then((res) => res.json())
             .then((data) => setDetail(data));
     }, [Id]);
@@ -22,7 +22,7 @@ const BlogDetails = () => {
                     <img className="w-75 hidden" src={detail.image} alt="" />
                 </div>
                 <div className="col-lg-6 text-start col-sm-12">
-                    <h2 className="text-primary">{detail.name}</h2>
+                    <h2 className="text-primary">{detail.place}</h2>
                     <div className="icon-star">
                         <Rating
                             initialRating={detail.rating}
@@ -31,11 +31,15 @@ const BlogDetails = () => {
                             readonly
                         ></Rating>
                     </div>
-                    <span>{detail.date}</span>
-                    <span>{detail.time}</span>
-                    <h4>Expense: {detail.price}</h4>
+                    <div className="d-flex justify-content-between align-items-center me-5">
+                        <span>{detail.date}</span>
+                        <span>{detail.time}</span>
+                    </div>
+                    <h5 style={{ color: "tomato" }}>Expense: ${detail.expense}</h5>
                     <p>{detail.description}</p>
-                    <Button className="service-btn w-25  rounded ">Booking</Button>
+                    <Link to="/home">
+                        <Button className="btn_dashboard w-25  rounded ">home</Button>
+                    </Link>
                 </div>
             </div>
         </div>

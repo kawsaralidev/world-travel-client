@@ -3,13 +3,14 @@ import "./Navigation.css";
 import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
+import Sidebar from "../../Sidebar/Sidebar";
 
 const Navigation = () => {
     const { user, logOut } = useAuth();
     console.log(user);
     return (
         <div>
-            <div cl>
+            <div className="nav-container">
                 <Navbar variant="light" sticky="top" collapseOnSelect expand="lg">
                     <Container>
                         <Navbar.Brand to="#home">
@@ -25,6 +26,9 @@ const Navigation = () => {
 
                             <Nav.Link className="main_nav-style" as={Link} to="/blog">
                                 Blogs
+                            </Nav.Link>
+                            <Nav.Link className="main_nav-style" as={Link} to="">
+                                <Sidebar></Sidebar>
                             </Nav.Link>
                             {user.email ? (
                                 <Nav.Link className="main_nav-style" as={Link} to="/dashboard">

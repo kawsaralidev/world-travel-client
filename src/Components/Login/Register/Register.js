@@ -77,16 +77,16 @@ const Register = () => {
                             />
 
                             <div className="d-flex align-items-center justify-content-between">
-                                <Button type="submit" className="btn_login ">
+                                <Button type="submit" className="btn_dashboard ">
                                     Register
                                 </Button>
                                 <span>If you are already register? please login</span>
-                                <Link className="btn_register" to="/login">
+                                <Link className="btn_dashboard" to="/login">
                                     <Button variant="text">Login</Button>
                                 </Link>
                             </div>
 
-                            <Button onClick={handleGoogleSignIn} className="btn_login py-2 w-100 mt-4">
+                            <Button onClick={handleGoogleSignIn} className="btn_dashboard py-2 w-100 mt-4">
                                 Sign In With Google
                             </Button>
                         </form>

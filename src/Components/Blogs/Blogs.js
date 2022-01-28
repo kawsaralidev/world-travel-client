@@ -18,7 +18,7 @@ const Blogs = () => {
     };
     console.log(blogs);
     useEffect(() => {
-        fetch(`http://localhost:5000/addBlog?page=${page}&&size=${size}`)
+        fetch(`https://damp-wildwood-60851.herokuapp.com/addBlog?page=${page}&&size=${size}`)
             .then((res) => res.json())
             .then((data) => {
                 setBlogs(data.blog);
